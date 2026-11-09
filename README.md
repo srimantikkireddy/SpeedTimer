@@ -2,6 +2,8 @@
 
 SpeedTimer is a small Windows desktop widget that counts down the real time needed to finish a video at a chosen playback speed. It can also use Windows media-session information to follow playback, show the current media name, and adjust its remaining-time estimate after a seek or skip when the app provides that information.
 
+<img width="870" height="58" alt="image" src="https://github.com/user-attachments/assets/3297c553-8268-4ca8-bc27-11c71f952b0b" />
+
 ## Features
 
 - Enter a video length and playback speed, then see the estimated finish time.
