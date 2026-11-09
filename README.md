@@ -40,6 +40,17 @@ py -m pip install winrt-runtime winrt-Windows.Media.Control winrt-Windows.Founda
 
 Restart SpeedTimer after installing the packages.
 
+## Start SpeedTimer when you sign in to Windows
+
+SpeedTimer does not add itself to Windows startup automatically. To launch it at sign-in:
+
+1. In File Explorer, find `SpeedTimer.pyw` and create a shortcut to it (on Windows 11, use **Show more options → Create shortcut** if needed).
+2. Press **Windows+R**, enter `shell:startup`, and press Enter. This opens the Startup folder for your Windows account.
+3. Move or copy the SpeedTimer shortcut into that folder.
+4. Sign out and sign back in, or restart Windows, to check that SpeedTimer opens.
+
+To stop it launching at sign-in, remove the shortcut from the Startup folder. This is separate from **Settings → Startup position**, which only controls where the widget appears when it launches.
+
 ## Set a timer
 
 1. Right-click the widget and choose **Set timer…**, or click the pencil icon.
